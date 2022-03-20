@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website</title>
+    <!-- bootstrap -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+
+
+    <script src="https://kit.fontawesome.com/958b3b13d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@510&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&family=Montserrat:wght@500&family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,500&family=Montserrat:wght@500&display=swap" rel="stylesheet"></head>
+<body class="space">
+
+    <!-- Header.... -->
+    <!-- Navigation -->
+    <header class = "header" id = "header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#" id="rest-name">JR Restaurant</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonials">Foods</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#reserves">Booking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact</a>
+                </li>
+              </ul>
+    
+            </div>
+          </nav>
+        <!-- END navigation -->
+
+        <div class = "head-bottom flex">
+            <h2 class="head-h">NICE AND COMFORTABLE PLACE TO EAT</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est quos veniam impedit numquam itaque voluptatum, dicta asperiores accusamus, eligendi neque ut incidunt, modi harum molestiae atque natus officia minima.</p>
+            <button type = "button" class = "head-btn"><a href = "#testimonials">Explore</a></button>
+        </div>
+    </header>
+
+    <!--Content  1-->
+
+
+    <h2 class ="foodh1">Our Great Dishes</h2>
+
+    <section id="testimonials">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+    
+            <div class="carousel-item active">
+                <div class ="chicken food">
+                    <h1>Biriyani</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora illo quos dolor dolores doloremque inventore porro? Tempore veritatis debitis nobis sint illo non ut magni maxime inventore. Ullam, nulla minus?</p>
+                </div>
+            </div>
+    
+            <div class="carousel-item">
+                <div class ="noodle food">
+                    <h1>Noodles</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora illo quos dolor dolores doloremque inventore porro? Tempore veritatis debitis nobis sint illo non ut magni maxime inventore. Ullam, nulla minus?</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class ="pasta food">
+                    <h1>Pizza</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora illo quos dolor dolores doloremque inventore porro? Tempore veritatis debitis nobis sint illo non ut magni maxime inventore. Ullam, nulla minus?</p>
+                </div>
+            </div>
+    
+    
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+    
+          </div>
+    
+    
+    
+      </section>
+
+<!-- content2 -->
+
+
+<!-- <div class="reserve" id="reserves">
+  <h1 style="margin-left: 30%;">Reserve tables</h1>
+<div class="container mt-6 ">
+  
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="name" class="form-label">Name:</label>
+    <input type="text" class="form-control" id="name" required>
+  </div>
+  <div class="col-md-8">
+    <label for="emailInfo" class="form-label">E-Mail:</label>
+    <input type="email" class="form-control" id="emailInfo" required>
+    <h4 id="valid">PLease enter your email</h4>
+  </div>
+  <div class="col-md-6">
+    <label for="number" class="form-label">Number of seats:</label>
+    <input type="number" class="form-control" id="number" required>
+    <span></span>
+  </div>
+  <div class="col-md-8">
+    <label for="pnumber" class="form-label">Phone Number:</label>
+    <input type="number" class="form-control" id="pnumber" required>
+    <span></span>
+  </div>
+  <div class="col-md-12">
+    <button type="submit" class="btn btn-dark"  >Submit</button>
+  </div>
+
+</form>
+</div>
+</div> -->
+
+<div class="reserve" id="reserves">
+  <h1 style="margin-left: 30%;">Reserve tables</h1>
+  <form action="#reserves" onsubmit="myfunc()">
+    <div class="res-form">
+      <label for="Name">Name:</label>
+      <br>
+      <input type="text" id="Name">
+      
+    </div>
+    <div class="res-form">
+      <label for="email">Email:</label>
+      <br>
+      <input type="text" id="email">
+      <span id="showmsg"></span>
+    </div>
+    <div class="res-form nos">
+      <label for="nos">Number of seats:</label>
+      <br>
+      <input type="number" id="nos">
+    </div>
+    <div class="res-form">
+      <label for="pnumber">Phone-Number:</label>
+      <br>
+      <input type="number" id="pnumber">
+      <span id="shownum"></span>
+    </div>
+    <button class="btn btn-dark"> Submit</button>
+
+  </form>
+</div>
+
+
+    <!--Footer...-->
+    <footer id="footer">
+        \ <h1>Our Restaurant in other cities</h1>
+        <div class="foot1">
+            <div class="fcity">
+                <li><a href="">Mumbai</a></li>
+                <li><a href="">Delhi</a></li>
+                <li><a href="">Banglore</a></li>
+                <li><a href="">Kolkata</a></li>
+            </div>
+            <h2 >Navigate to : </h2>
+            <div class="navi">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#foodies">Foods</a></li>
+                <li><a href="#book">Booking</a></li>
+            </div>
+        </div>
+        <div class="foot2">
+            <div class="icon">
+                <i class=" faicon fab fa-facebook"></i>
+                <i class=" faicon fab fa-instagram"></i>
+                <a href="https://github.com/Jayaraj-s"><i class=" faicon fab fa-github"></i></a>
+                <i class=" faicon fas fa-envelope"></i>
+            </div>
+            <p>© Copyright 2022 JJ's Restaurant</p>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
+
+<!-- <div class="container_2" id="book">
+  <h1>Booking Tables</h1>
+  <div class="form">
+      <input type="text" placeholder="Name">
+      <br>
+      <input type="email" placeholder="Email">
+      <br>
+      <input type="number" placeholder="Number of seats">
+      <br>
+      <button class="babtn">Submit</button>
+  </div>
+</div> -->
+
+
